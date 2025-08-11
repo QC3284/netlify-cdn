@@ -5,5 +5,5 @@
   force = true  # 强制代理（不重定向）
   headers = { 
     Access-Control-Allow-Origin = "*", 
-    Cache-Control = "public, max-age=3600" 
+    Cache-Control = "public, max-age=3600, immutable" 
   }
