@@ -1,9 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "https://cdn.jsdelivr.net/:splat"  # 保留原始路径和查询参数
+  to = "https://cdn.jsdelivr.net/:splat"
   status = 200
-  force = true  # 强制代理（不重定向）
-  headers = { 
-    Access-Control-Allow-Origin = "*", 
-    Cache-Control = "public, max-age=3600, immutable" 
-  }
+  force = true
+  headers = { Access-Control-Allow-Origin = "*", Cache-Control = "public, max-age=3600" }
